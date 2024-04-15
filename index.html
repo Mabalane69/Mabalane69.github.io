@@ -5,27 +5,40 @@
     <title>Mabalane Aphane</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<nav>
-    <a href="#">About</a>
-    <a href="#">Experience</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
-</nav>
-<main>
-    <div class="profile-card">
-        <div class="profile-pic">
-            <img src="profile-pic.jpg" alt="Profile Picture">
+<body onload="document.body.style.opacity='1'">
+<div class="hero">
+    <div class="nav">
+        <div class="logo">
+            <h2>Mabalane Aphane</h2>
         </div>
-        <h1>Mabalane Aphane</h1>
-        <p>Full-Stack Developer</p>
-        <button class="download-cv">Download CV</button>
-        <button class="hire-me">Hire Me</button>
-        <div>
-            <a href="#"><i class="fab fa-LinkedIn"></i></a>
-            <a href="#"><i class="fab fa-GitHub<"></i></a>
+        <div class="link">
+            <ul>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
     </div>
-</main>
+    <div class="main">
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="img/picture2.png" alt="Profile Picture">
+            </div>
+            <h1>Mabalane Aphane</h1>
+            <p>Full-Stack Developer</p>
+
+            <div class="btn">
+                <button type="submit">Download CV</button>
+                <button type="submit" class="btn-2">Hire Me</button>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fab fa-LinkedIn"></i></a>
+                <a href="#"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+
+    </div>
+</div>
 </body>
 </html>
