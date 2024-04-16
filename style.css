@@ -183,3 +183,56 @@ ul a .active {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+/*contact styling*/
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #f4637b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e24961;
+}
+
+.contact-info {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #2a2a2a;
+}
+
+.contact-info p:first-child {
+    margin-bottom: 10px;
+}
