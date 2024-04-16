@@ -236,3 +236,22 @@ ul a .active {
 .contact-info p:first-child {
     margin-bottom: 10px;
 }
+
+/*styling the icons on the contact me*/
+.contact-icons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-icons a {
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing between icons */
+    color: #2a2a2a; /* Icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.contact-icons a:hover {
+    color: #f4637b; /* Change color on hover */
+}
+
