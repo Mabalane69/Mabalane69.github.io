@@ -8,5 +8,11 @@ function showAbout() {
     document.getElementById('aboutSection').style.display = 'block';
 }
 
+function showContact() {
+    document.getElementById('homeSection').style.display = 'none';
+    document.getElementById('aboutSection').style.display = 'block';
+}
+
 document.getElementById('homeLink').addEventListener('click', showHome);
 document.getElementById('aboutLink').addEventListener('click', showAbout);
+document.getElementById('contactLink').addEventListener('click', showContact);
