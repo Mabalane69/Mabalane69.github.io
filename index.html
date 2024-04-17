@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="#" id="homeLink">Home</a></li>
                 <li><a href="about.html" id="aboutLink">About</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="projects.html" id="projectsLink">Projects</a></li>
                 <li><a href="contact.html" id="contactLink">Contact</a></li>
             </ul>
         </div>
@@ -29,7 +29,8 @@
             <p>Full-Stack Developer</p>
 
             <div class="btn">
-                <button type="submit">Download CV</button>
+                <!-- Call the downloadCV() function defined in the separate JavaScript file -->
+                <button type="button" onclick="downloadCV()">Download CV</button>
                 <button type="submit" class="btn-2">Hire Me</button>
             </div>
             <div class="social">
@@ -37,9 +38,10 @@
                 <a href="#"><i class="bx bxl-github"></i></a>
             </div>
         </div>
-
     </div>
 </div>
+
 <script src="navigation.js"></script>
+<script src="downloadCV.js"></script> <!-- Include the reference to downloadCV.js -->
 </body>
 </html>
