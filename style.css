@@ -255,3 +255,48 @@ ul a .active {
     color: #f4637b; /* Change color on hover */
 }
 
+
+/* Add dark green background color */
+/* Use a brighter green background color */
+body {
+    background-color: #4d8c2d;
+    color: #000; /* Set text color to black */
+}
+
+/* Add hover effect for navigation links */
+.nav .link ul a:hover {
+    color: #ffffff;
+}
+
+/* Add hover effect for social media icons */
+.social i:hover {
+    color: #ffffff;
+}
+
+/* Style buttons */
+/* Style buttons */
+.btn button {
+    background-color: #ffffff; /* Set button background color to white */
+    color: #4d8c2d; /* Set button text color to brighter green */
+    border: 2px solid #000000; /* Add a black border */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Add transition for smooth color change on hover */
+}
+
+.btn button:hover {
+    background-color: #000000; /* Change button background color to black on hover */
+    color: #ffffff; /* Change button text color to white on hover */
+}
+
+/* Set strong black color for headings, paragraphs, and links */
+h1, h2, h3, h4, h5, h6, p, a {
+    color: #000000;
+    font-weight: bold;
+}
